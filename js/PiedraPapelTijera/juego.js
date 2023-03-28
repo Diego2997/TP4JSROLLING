@@ -8,7 +8,7 @@ function obtenerMovimiento() {
     return opcion;
   } else {
     document.write("Movimiento no válido");
-    return getUserChoice();
+    return obtenerMovimiento();
   }
 }
 
